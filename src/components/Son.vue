@@ -17,6 +17,7 @@
 
 <script>
 export default {
+  // 在子组件中使用v-model，子组件接收要使用value。如果使用msg接收，不会生效
   props: ['value'],
 }
 </script>
